@@ -15,6 +15,10 @@ public class Libro {
         this.prestado = prestado;
     }
 
+    public void setPrestado(boolean prestado) {
+        this.prestado = prestado;
+    }
+
     public String getIsbn() {
         return isbn;
     }
@@ -47,6 +51,7 @@ public class Libro {
             System.out.println("El libro" + " " + this.titulo + " " + "del autor" + " " + this.autor + " " + "está disponible");
         }
     }
+
 
 
 }
